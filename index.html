@@ -21,7 +21,18 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">Favorite Classes</a></li>
-          <li><a href="#">Top Languages</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Top Languages <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Python</a></li>
+              <li><a href="#">Java</a></li>
+              <li><a href="#">C</a></li>
+              <li><a href="#">Javascript</a></li>
+              <li><a href="#">Ruby</a></li>
+              <li><a href="#">C++</a></li>
+              <li><a href="#">More</a></li>
+            </ul>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign Up</a></li>
@@ -48,14 +59,14 @@
             <h3>#1: Segmentation Faults (Core Dumped)</h3>
           </div>
           <div class="col-md-6">
-            <p>
+            <blockquote>
               As anyone who has programmed in C knows, working with a language
               that is not memory safe can be a blessing and a curse.  One
               negative of low-level access is the segfault, which is caused
               by a program trying to read or write an illegal memory location.
               Some students have dubbed recieving this common programming error
               'Taking a segfault to the face'.
-            </p>
+            </blockquote>
           </div>
         </div>
         <div>
@@ -63,36 +74,38 @@
             <h3>#2: Procrastination</h3>
           </div>
           <div class="col-md-6">
-            <p>
+            <blockquote>
               The only possible thing that makes a CS lab harder is when its
               due at midnight and it’s 10pm.  Being a CS major and procrastinating
               is probably a bad combination, like beans and red wine.  Most
               CS labs are time consuming to say the least, so starting the day
               they are due is definitely not a good idea.
-            </p>
+            </blockquote>
           </div>
         </div>
+        <hr>
         <div>
           <div class="col-md-6">
             <h3>#3: Not Using Git</h3>
           </div>
           <div class="col-md-6">
-            <p>
+            <blockquote>
               As a student, especially if no one else is working on your code,
               using Git can seem tedious and unneccessary.  Why learn this complicated
               new system and follow a new workflow?  Well, as anyone who has tried
               and failed at a major change and forgotten to back up their work knows,
               using Git correctly can be crucial to success.  Proper Git usage can
               save invaluable time and is a necessary skill for group work.
-            </p>
+            </blockquote>
           </div>
         </div>
+        <hr>
         <div>
           <div class="col-md-6">
             <h3>#4: Getting Cooked</h3>
           </div>
           <div class="col-md-6">
-            <p>
+            <blockquote>
               Ever tried taking two systems level programming courses in the same
               term?  Or how about saving an entire CS50 lab until the last minute?
               The term to descrive these situations, in which there is an unrealistic
@@ -100,28 +113,32 @@
               is 'getting cooked'.  As a CS major, it is imperative to select your
               schedule judiciously and use proper time management to avoid getting
               cooked at all costs.
-            </p>
+            </blockquote>
           </div>
         </div>
+        <hr>
         <div>
           <div class="col-md-6">
             <h3>#5: Forgetting How to Code</h3>
           </div>
           <div class="col-md-6">
-            <p>
+            <blockquote>
               What's that you say?  How could a programmer possibly forget how to
               code?  Well you're right, they probably couldn't.  The problem is
               that we had to make up some content for this tutorial and we
               ran out of ideas.
-            </p>
+            </blockquote>
           </div>
         </div>
+        <hr>
       </div>
     </div>
 
-    <footer>
-      <ul>
+    <footer class="navbar navbar-default">
+      <ul class="nav navbar-nav">
         <li><a href="#">ORC</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Schedule</a></li>
         <li><a href="#">Major</a></li>
         <li><a href="#">Professors</a></li>
